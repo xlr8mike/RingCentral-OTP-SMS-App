@@ -1,0 +1,22 @@
+# Define line endings for text files
+* text=auto
+
+# Explicitly set binary files
+*.exe binary
+*.dll binary
+*.pdb binary
+
+# Exclude generated files from being treated as text
+bin/** binary
+obj/** binary
+publish/** binary
+
+# Handle Visual Studio project files
+*.csproj merge=union
+*.vbproj merge=union
+*.sln text eol=crlf
+
+# Markdown and documentation files
+*.md text
+*.txt text
+*.json text

@@ -1,0 +1,47 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific and temporary files
+*.user
+*.suo
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore compiled resources and intermediates
+**/*.resources.dll
+**/*.pdb
+**/*.exe
+**/*.dll
+
+# Ignore Visual Studio and IDE-specific files
+.vscode/
+.idea/
+.vs/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore publish profiles
+**/My Project/PublishProfiles/
+
+# Ignore NuGet cache
+*.nuget.cache
+project.nuget.cache
+
+# Ignore unnecessary auto-generated Visual Studio files
+.vs/**/DesignTimeBuild/
+.vs/**/FileContentIndex/
+.vs/**/ProjectEvaluation/
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+
+# Allow critical project files
+!README.md
+!LICENSE
+Output-Build.txt
