@@ -22,7 +22,7 @@ The **OTP Texting App** is a streamlined solution for generating and sending One
 
 ### Installation
 1. **Download the Executable:**
-   - Navigate to the `dist/` directory and locate `OTP Texting App.exe`.
+   - Navigate to the root directory and locate `OTP Texting App.exe`.
    - Copy the executable to your desired location.
 
 2. **Install .NET 8 Runtime:**
@@ -31,6 +31,7 @@ The **OTP Texting App** is a streamlined solution for generating and sending One
 ### Running the Application
 1. Double-click `OTP Texting App.exe` to launch the app.
 2. Follow the on-screen prompts to configure and send OTPs.
+   *Files are created in your %temp% directory, as well as the log.*
 
 ### Publishing the Application
 For creating a new build:
